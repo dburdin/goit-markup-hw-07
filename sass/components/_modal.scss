@@ -184,17 +184,10 @@
 .field-subtitle-checkbox {
   display: flex;
 
-  flex-wrap: wrap;
-  align-items: center;
-
-  line-height: 1.71;
   color: var(--secondary-color);
 
   .link {
     color: var(--accent-color);
-  }
-  & > .link {
-    margin-left: 23px;
   }
 }
 

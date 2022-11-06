@@ -81,7 +81,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
@@ -251,16 +251,10 @@ body {
 
 .field-subtitle-checkbox {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  line-height: 1.71;
   color: var(--secondary-color);
 }
 .field-subtitle-checkbox .link {
   color: var(--accent-color);
-}
-.field-subtitle-checkbox > .link {
-  margin-left: 23px;
 }
 
 .custom-checkbox {
